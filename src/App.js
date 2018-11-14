@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import OverwatchContainer from './containers/OverwatchContainer';
 
 class App extends Component {
   render() {
     return (
-      <h1>Hello World</h1>
+      <OverwatchContainer className="overwatch-container"/>
     );
   }
 }
