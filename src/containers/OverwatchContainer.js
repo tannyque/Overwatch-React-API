@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import OverwatchHeroList from './OverwatchHeroList';
+import HeroList from './HeroList';
 
 class OverwatchContainer extends Component {
   constructor(props) {
@@ -19,7 +19,7 @@ class OverwatchContainer extends Component {
     return (
       <div className="hero-container">
         <img src="images/logo.png" className="logo" alt="Overwatch Logo"/>
-        <OverwatchHeroList className="hero-list" heroes={this.state.heroes}/>
+        <HeroList className="hero-list" heroes={this.state.heroes}/>
       </div>
     );
   }
