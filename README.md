@@ -24,6 +24,9 @@ Open http://localhost:3000 to view it in the browser if it does not automaticall
 
 Your task is to create an application that makes a request to an API and displays the data.
 
+
+#### [API Repo](https://github.com/isaacmillercodes/overwatch-hero-api)
+
 API - https://overwatch-hero-api.herokuapp.com/api/v1/heroes
 
 - The application should display data from an API request.
