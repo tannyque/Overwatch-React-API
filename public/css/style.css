@@ -12,12 +12,39 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
-  text-align: center;
-}
-
-img {
+.logo {
   display: block;
   margin: 1rem auto;
   max-width: 15%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hero-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 0px;
+  text-align: center;
+}
+
+p {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  text-align: center;
+}
+
+.image {
+  display: block;
+  margin: auto;
+}
+
+.hero {
+  width: 300px;
 }
